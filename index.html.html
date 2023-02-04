@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <input id="a" type="text">
+        <button onclick="sum()">+</button>
+        <button onclick="los()">-</button>
+        <button onclick="time()">*</button>
+        <button onclick="div()">/</button>
+        <input id="b" type="text">
+        <output id="c"></output>
+        <script>
+            function sum(){
+                var e = parseInt(a.value);
+                var d = parseInt(b.value);
+                c.value = e+d
+            }
+            function los(){
+                var f  = parseInt(a.value)
+                var g = parseInt(b.value)
+                c.value = f-g
+            }
+            function time(){
+                var h = parseInt(a.value)
+                var i = parseInt(b.value)
+                c.value = h*i
+            }
+            function div(){
+                var j = parseInt(a.value)
+                var k = parseInt(b.value)
+                c.value = j/k
+            }
+        </script>
+    </body>
+</html>
